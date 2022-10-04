@@ -2,11 +2,16 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/user/public_html/
-    - /bin/cp .editorconfig $DEPLOYPATH
-    - /bin/cp .gitignore $DEPLOYPATH
-    - /bin/cp .htaccess $DEPLOYPATH
-    - /bin/cp composer.json $DEPLOYPATH
-    - /bin/cp contributing.md $DEPLOYPATH
-    - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp license.txt $DEPLOYPATH
-    - /bin/cp readme.rst $DEPLOYPATH
+    - /bin/cp -R application $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fontawesome $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R media $DEPLOYPATH
+    - /bin/cp -R pages $DEPLOYPATH
+    - /bin/cp -R system $DEPLOYPATH
+    - /bin/cp -R vendor $DEPLOYPATH
+    - /bin/cp -R video $DEPLOYPATH
+    

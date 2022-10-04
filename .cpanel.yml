@@ -2,16 +2,16 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/user/public_html/
-    - /bin/cp -R application $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R fontawesome $DEPLOYPATH
-    - /bin/cp -R fonts $DEPLOYPATH
-    - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp -R media $DEPLOYPATH
-    - /bin/cp -R pages $DEPLOYPATH
-    - /bin/cp -R system $DEPLOYPATH
-    - /bin/cp -R vendor $DEPLOYPATH
-    - /bin/cp -R video $DEPLOYPATH
+    - /bin/cp -R /repositories/ecofoot-gl/application $DEPLOYPATH
+    - /bin/cp -R /repositories/ecofoot-gl/css $DEPLOYPATH
+    - /bin/cp -R /repositories/ecofoot-gl/fontawesome $DEPLOYPATH
+    - /bin/cp -R /repositories/ecofoot-gl/fonts $DEPLOYPATH
+    - /bin/cp -R /repositories/ecofoot-gl/images $DEPLOYPATH
+    - /bin/cp -R /repositories/ecofoot-gl/img $DEPLOYPATH
+    - /bin/cp -R /repositories/ecofoot-gl/js $DEPLOYPATH
+    - /bin/cp -R /repositories/ecofoot-gl/media $DEPLOYPATH
+    - /bin/cp -R /repositories/ecofoot-gl/pages $DEPLOYPATH
+    - /bin/cp -R /repositories/ecofoot-gl/system $DEPLOYPATH
+    - /bin/cp -R /repositories/ecofoot-gl/vendor $DEPLOYPATH
+    - /bin/cp -R /repositories/ecofoot-gl/video $DEPLOYPATH
     
